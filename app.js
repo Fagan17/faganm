@@ -1,8 +1,8 @@
-let bookPrice = 25;
-let bookAmount = 5;
-console.log(bookPrice * bookAmount);
-let num = 13;
-console.log(Math.pow(num,5));
-console.log(num % 3);
-let randomNumber = Math.floor(Math.random() * (4 + 1)) + 95;
-console.log(randomNumber);
+let age = prompt("Yasinizi daxil edin") 
+if(age < 18){
+    console.log("icaze verilmedi ")
+}else{
+    console.log("Icaze verildi")
+}
+let fullName = prompt("Adinizi Soyadinizi daxil edin")
+console.log("Salam,!",fullName.split(" ")[1])
